@@ -3,7 +3,7 @@ import React from "react";
 const MyPage = () => {
   return (
     <div className="background">
-      <h1>MyPage</h1>
+      <h1>마이페이지</h1>
     </div>
   );
 };
