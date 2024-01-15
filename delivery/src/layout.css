@@ -1,0 +1,364 @@
+.headerTop {
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  background: rgb(170, 167, 167);
+  white-space: nowrap;
+}
+
+.headerMenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 210px;
+  text-decoration: none;
+
+  clear: both;
+}
+
+.logo {
+  width: 86px;
+  height: 56px;
+
+  text-indent: -99999px;
+  background-image: url(https://www.ilogen.com/static/images/img_logo.png);
+}
+
+.headerRight {
+  padding-left: 130px;
+  right: 10px;
+  text-align: center;
+  top: 0px;
+  color: #393939;
+  text-decoration: none;
+}
+
+.headerRight li {
+  margin: 10px;
+  color: #393939;
+}
+
+.menu {
+  border: 1px solid #fff;
+  display: block;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding: 5px 10px 7px;
+  width: 50px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.xBar {
+  background: url(https://www.ilogen.com/static/images/bthCloseSlide.png)
+    no-repeat center;
+  width: 50px;
+  height: 50px;
+  z-index: 99999;
+  margin-left: 5px;
+  padding: 5px 10px 7px;
+  display: block;
+  border: 1px solid #1c1b1b;
+  text-indent: -99999px;
+}
+
+.show-menu {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  right: 0px;
+  transition: 1s;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.sideMenu {
+  width: 1160px;
+  margin: 0 auto;
+}
+.sideMenu > div {
+  overflow: hidden;
+  clear: both;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.sideMenu div.tit {
+  font-size: 20px;
+  color: #ffa200;
+  font-weight: 800;
+  float: left;
+  width: 100px;
+}
+
+.sideMenu div > ul {
+  float: left;
+  width: 1020px;
+}
+
+.sideMenu div > ul > li {
+  float: left;
+  width: 150px;
+  position: relative;
+  list-style: none;
+}
+
+.sideMenu div > ul > li > a {
+  font-size: 14px;
+  color: #1c1b1b;
+  text-decoration: none;
+}
+.sideMenu div > ul > li > a:hover {
+  font-size: 14px;
+  color: #fdbf57;
+  text-decoration: none;
+}
+
+.hide-menu {
+  display: none;
+}
+.menu span {
+  display: block;
+  word-break: break-all;
+  font-family: "monts";
+  font-weight: 700;
+}
+/* footer를 바닥에 고정 시키기 위해 처리한 css */
+.wraper {
+  height: auto;
+  min-height: 100%;
+
+  /* 최소 높이 100%로 언제나 padding-bottom 390px 헤더 높이만큼 아래 쪽으로 패딩,  헤더가 맨 밑에 가도록 */
+}
+/* translateY(0%)로 바닥으로 이동(y값 0%) */
+footer {
+  background-color: #393939;
+  text-align: center;
+  min-width: 1204px;
+  height: 390px;
+  position: relative;
+  transform: translateY(0%);
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footerLink {
+  width: 1204px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 79px 0 23px;
+}
+
+.linkL {
+  overflow: hidden;
+  float: left;
+}
+
+footer .footerLink ul li {
+  float: left;
+  padding-right: 22px;
+  position: relative;
+}
+
+footer .footerLink ul li {
+  float: left;
+  padding-right: 22px;
+  position: relative;
+}
+
+footer .footerLink ul li a {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+footer .footerLink ul.linkL li:first-child a {
+  color: #fdbf57;
+}
+
+footer .footerLink ul.linkR {
+  float: right;
+}
+
+.linkR li a {
+  text-indent: -99999px;
+  display: inline-block;
+  width: 24px;
+  height: 23px;
+}
+
+.btnNaverBlog {
+  background: url(https://www.ilogen.com/static/images/footer_naverBlog.png)
+    no-repeat right center;
+  margin-right: 18px;
+  margin-top: 1px;
+}
+
+.btnInsta {
+  background: url(https://www.ilogen.com/static/images/footer_insta.png)
+    no-repeat right center;
+  margin-right: 7px;
+  margin-top: 1px;
+}
+
+.btnFacebook {
+  background: url(https://www.ilogen.com/static/images/footer_facebook.png)
+    no-repeat right center;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+.btnYoutube {
+  background: url(https://www.ilogen.com/static/images/footer_youtube.png)
+    no-repeat right center;
+  margin-top: 1px;
+}
+
+.footerText {
+  display: table;
+  padding: 24px 0 71px;
+  font-family: "noto";
+  width: 1204px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+footer .footerText div {
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+  line-height: 26px;
+  padding-right: 10px;
+  margin-top: 6px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footerLogo {
+  float: right;
+}
+
+footer > div {
+  border-top: 1px solid #545454;
+}
+
+/* hover시 메뉴 스타일 */
+
+.dropDownBox {
+  background: rgb(170, 167, 167);
+  position: absolute;
+  width: 100%;
+  display: none;
+  top: 5000;
+  left: 0;
+  z-index: 200;
+  border-bottom: 1px solid #e6e6e6;
+  height: 498px;
+  top: 90px;
+  border-top: 1px solid #e6e6e6;
+}
+
+li {
+  list-style: none;
+}
+
+.headerMenu li:hover > .dropDownBox {
+  display: block;
+}
+
+.menuBox {
+  width: 1204px;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+  display: table;
+}
+
+.menuL {
+  display: table-cell;
+  width: 200px;
+  height: 458px;
+  font-size: 36px;
+  color: #222;
+  font-family: "noto";
+  font-weight: 300;
+  vertical-align: top;
+  padding: 40px 0 0 40px;
+}
+
+.menuR {
+  display: table-cell;
+  border-left: 1px solid #e6e6e6;
+  width: 924px;
+  padding: 17px 0 70px 67px;
+  box-sizing: border-box;
+}
+
+.menuText ul {
+  overflow: hidden;
+  clear: both;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.menuText ul li {
+  width: 214px;
+  float: left;
+}
+
+.menuText > ul > li > a {
+  margin-top: 13px;
+  position: relative;
+  padding-top: 8px;
+}
+
+.menuText > ul > li > a {
+  font-size: 18px;
+  color: #222;
+  font-weight: 700;
+}
+.menuText > ul > li > ul > li > a {
+  font-size: 16px;
+  color: #2a2929;
+  font-family: "noto";
+  font-weight: 350;
+  line-height: 30px;
+}
+
+.menuText > ul > li > a:hover {
+  font-size: 18px;
+  color: #ffa200;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.menuText > ul > li > ul > li > a:hover {
+  font-size: 16px;
+  color: #fdbf57;
+  font-family: "noto";
+  font-weight: 350;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}

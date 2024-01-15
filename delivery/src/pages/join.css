@@ -1,0 +1,87 @@
+.joinWrapper {
+  width: 1204px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 42px;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+
+.subTitle {
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+
+.signTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px black solid;
+}
+
+.signTable p {
+  color: #e93e3e;
+  font-size: 16px;
+}
+
+.Table input {
+  width: 580px;
+  height: 70px;
+  font-size: 18px;
+}
+
+.Table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 1024px;
+}
+
+.Table div {
+  font-size: 18px;
+  color: #222;
+  font-weight: 800;
+  line-height: 24px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+.emailSubText {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.signInBtn {
+  width: 274px;
+  height: 64px;
+  font-family: "noto";
+  font-weight: 500;
+  background-color: #ffa200;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  margin: 40px auto;
+  cursor: pointer;
+}

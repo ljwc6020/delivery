@@ -1,0 +1,89 @@
+.background {
+  padding-top: 200px;
+  width: 100%; /* 부모 요소에 맞게 가로 너비 100%로 설정 */
+  height: 880px;
+  /* 가로 스크롤 허용 */
+  background: url(https://www.ilogen.com/upload/banner/69a8da2c86804a26a766c5c6216a2ba3.jpg)
+    no-repeat center center;
+  background-size: cover; /* 이미지를 가득 채우도록 설정 */
+}
+
+.wraper {
+  padding-bottom: 0;
+}
+
+.searchBoard {
+  background: antiquewhite;
+  padding: 31px 60px;
+  border-radius: 50px;
+  overflow: hidden;
+  clear: both;
+  width: 800px;
+  height: 100px;
+  z-index: 55;
+  margin-top: 100px;
+  display: block;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBoardtext {
+  background: url(https://www.ilogen.com/static/images/ico_headerSearch_01.png)
+    no-repeat left center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #222;
+  padding-left: 60px;
+  line-height: 38px;
+  padding-right: 35px;
+  display: flex;
+  text-align: center;
+  width: 700px;
+}
+
+.searchNumOfInvice {
+  margin-left: 20px;
+  width: 420px;
+  border: 0;
+  height: 37px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #222;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px 20px;
+}
+
+/* input 박스 화살표 제거
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.mainSearch {
+  background: url(https://www.ilogen.com/static/images/btn_headerSearch.png)
+    no-repeat center center;
+  height: 38px;
+  width: 38px;
+  background-color: antiquewhite;
+  margin-left: 20px;
+  border: 0;
+  text-indent: -99999px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+/* 배송 상태 아이콘 스타일 지정 */
+.deliveryStatusIcon {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 52px;
+  color: black;
+}
